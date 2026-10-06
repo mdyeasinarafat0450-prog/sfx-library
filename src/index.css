@@ -1,0 +1,30 @@
+:root {
+  --bg-panel: #232323;
+  --bg-darker: #1A1A1A;
+  --text-main: #E0E0E0;
+  --text-muted: #888888;
+  --accent-color: #2D8CFF;
+  --accent-hover: #3D9CFF;
+  --border-color: #383838;
+  --row-hover: #333333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-panel);
+  color: var(--text-main);
+  font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+  overflow: hidden;
+  user-select: none;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
